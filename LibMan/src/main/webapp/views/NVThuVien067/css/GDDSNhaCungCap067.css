@@ -1,0 +1,44 @@
+body {
+    background-color: #B2DFDB;
+    font-family: "Lora", serif;
+    font-size: 1rem;
+}
+.container {
+    height: 100%;
+    width: 80%;
+    margin-left: 10%;
+    background-color: white;
+    padding-bottom: 50px;
+}
+.container h1 {
+    font-weight: 700;
+    font-size: 2rem;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+.print_table {
+    height: auto;
+    width: 80%;
+    border: 0.5px rgb(58, 170, 245) solid;
+    font-size: 1.1rem;
+    margin-left: 10%;
+    transition: transform 0.2s;
+    padding-bottom: 10px;
+}
+.print_table:hover {
+    transform: scale(1.02);
+}
+.print_table a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding-left: 50px;
+}
+.print_table div {
+    margin-bottom: -10px;
+}
+.print_table span {
+    font-weight: 600;
+    margin-right: 5px;
+}

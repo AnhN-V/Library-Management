@@ -1,0 +1,80 @@
+body {
+    background-color: #B2DFDB;
+    font-family: "Lora", serif;
+    font-size: 1rem;
+}
+.container {
+    height: auto;
+    width: 80%;
+    margin-left: 10%;
+}
+.content {
+    height: 300px;
+    width: 100%;
+    background-color: white;
+    padding-top: 20px;
+}
+.content h1 {
+    text-align: center;
+    font-size: 2rem;
+}
+.content #name_NCC {
+    margin-left: 5px;
+}
+.main_content {
+    width: 60%;
+    display: flex;
+    margin-top: 50px;
+    margin-left: 27%;
+}
+.in_Key {
+    width: 60%;
+    height: 50px;
+}
+.in_Key input {
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    padding-left: 20px;
+    border: 0.5px rgb(143, 138, 138) solid;
+    border-radius: 5px;
+    transition: border-color 0.2s;
+}
+.btn_Search {
+    width: 15%;
+    height: 50px;
+}
+.btn_Search button {
+    width: 100%;
+    height: 100%;
+    font-size: 1.1rem;
+    border: 1px rgb(143, 138, 138) solid;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.2s;
+    background-color: #449d44;
+    color: white;
+    font-weight: 600;
+}
+.btn_Search button:hover {
+    transform: scale(1.02);
+}
+.in_Key input:hover {
+    border: 1px solid rgb(24, 23, 23);
+}
+.add_TaiLieu_ID {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.add_TaiLieu_ID a{
+    text-decoration: none;
+    font-size: 1.05rem;
+    font-style: italic;
+    color: blue;
+}
+.add_TaiLieu_ID a:hover {
+    color: red;
+    font-weight: 600;
+}

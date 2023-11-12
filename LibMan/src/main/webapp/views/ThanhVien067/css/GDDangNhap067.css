@@ -1,0 +1,65 @@
+body {
+    background-color: #B2DFDB;
+    font-family: "Lora", serif;
+    font-size: 1rem;
+}
+.container {
+    height: 500px;
+    width: 40%;
+    margin-top: 50px;
+    margin-left: 30%;
+    background-color: white;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+.container h1 {
+    margin-left: 9.5%;
+    font-size: 2rem;
+    padding-top: 50px;
+    color: rgb(143, 138, 138);
+}
+.container span {
+    color: red;
+}
+.container h2 {
+    margin-left: 10%;
+    margin-top: -10px;
+    padding-bottom: 15px;
+    font-size: 2rem;
+    font-weight: 500;
+}
+.loginform {
+    width: 80%;
+    margin-left: 10%;
+}
+
+.loginform input {
+    margin-bottom: 30px;
+    width: 100%;
+    height: 50px;
+    padding-left: 13px;
+    border: 0.5px rgb(143, 138, 138) solid;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.2s;
+}
+.loginform .box_btnSubmit {
+    width: 103%;
+    height: 60px;
+    border-bottom: 2px rgb(204, 204, 204) solid;
+}
+.loginform .btn_Submit {
+    width: 100%;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 8px;
+    background-color: #235680;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+.loginform .btn_Submit:hover{
+    transform: scale(1.02);
+}
+.loginform input:hover {
+    border: 1px solid rgb(30, 29, 29);
+}

@@ -1,0 +1,53 @@
+body {
+    background-color: #B2DFDB;
+    font-family: "Lora", serif;
+    font-size: 1rem;
+}
+.container {
+    height: 100%;
+    width: 80%;
+    margin-left: 10%;
+    background-color: white;
+    padding-bottom: 50px;
+}
+.container h1 {
+    font-weight: 700;
+    font-size: 2rem;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+.print_table {
+    height: 100px;
+    width: 80%;
+    border: 0.5px rgb(58, 170, 245) solid;
+    font-size: 1.1rem;
+    margin-left: 10%;
+    transition: transform 0.2s;
+}
+.print_table:hover {
+    transform: scale(1.02);
+}
+.print_table a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding-left: 50px;
+}
+.print_table .name_docu {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: -20px;
+}
+.author {
+    display: flex;
+}
+.author #author_name {
+    margin-right: 5px;
+}
+.author #year {
+    font-style: italic;
+}
+.author span {
+    font-style: italic;
+}
