@@ -2,6 +2,7 @@
 Một hệ thống quản lý Thư viện (LibMan) của một trường Đại học cho phép quản lý các loại tài
 liệu thông thường (sách, giáo trình, tạp chí…). Hệ thống cho phép người quản lý, nhân viên thư
 viện và bạn đọc thực hiện các chức năng sau khi đăng nhập:
+
 • Nhân viên quản lí: xem các dạng báo cáo thống kê: các tài liệu theo số lần mượn, các
 độc giả theo số lần mượn, các nhà cung cấp theo số lượng tài liệu nhập.
 • Nhân viên thư viện: Cập nhật tài liệu, bạn đọc, nhà cung cấp (thêm, xóa, thay đổi), tìm
