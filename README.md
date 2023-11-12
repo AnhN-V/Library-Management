@@ -13,6 +13,7 @@ kiếm, cho mượn tài liệu, nhận trả tài liệu từ bạn đọc, nh�
 đăng kí làm thẻ bạn đọc trực tuyến. 
 
 Có 2 module thực hiện:
+
 Module 1: Chức năng bạn đọc tìm thông tin tài liệu: chọn menu tìm tài liệu → nhập tên tài liệu để
 tìm → hệ thống hiện danh sách các tài liệu có tên chứa từ khóa vừa nhập → click vào
 một tài liệu xem chi tiết → hệ thống hiện thông tin chi tiết về tài liệu.
